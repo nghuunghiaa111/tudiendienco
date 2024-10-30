@@ -66877,7 +66877,7 @@ return A.aW(p,B.am,B.i,B.k)}}
 A.awo.prototype={}
 A.kG.prototype={
 Da(a,b,c,d,e){var s=null
-return new A.yC(A.bn0(s,s,new A.Ja(this.a,s,s)),s,s,s,e,d,b,s,B.dh,s,c,B.J,B.dl,s,!1,!1,s,!1,!1,s)},
+return new A.yC(A.bn0(s,s,new A.Ja(this.a,s,s)),s,s,s,e,d,b,s,B.dh,s,c,B.J,B.dl,s,!1,!0,s,!1,!1,s)},
 mA(a,b,c){return this.Da(0,null,null,b,c)},
 Kn(a,b,c,d){return this.Da(0,b,null,c,d)},
 Ko(a,b,c,d){return this.Da(0,null,b,c,d)}}
@@ -103944,8 +103944,7 @@ else{s=p.a
 if(s==null)s=p}r=a.a
 if(s===(r==null?a:r))return
 if(q.r){p.toString
-p.K(0,q.At())}q.a.toString
-q.a_(new A.b0k(q))
+p.K(0,q.At())}if(!q.a.CW)q.a_(new A.b0k(q))
 q.a_(new A.b0l(q))
 q.d=a
 if(q.r)a.X(0,q.At())},
